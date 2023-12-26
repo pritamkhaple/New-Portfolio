@@ -187,7 +187,6 @@
     /* max-width: 60%; */
     margin: auto;
     text-align: center;
-    height: 100vh;
 }
 
 .proj {
@@ -254,6 +253,8 @@
     width: 80%;
     /* border: 1px solid red; */
     padding: 1rem;
+    bottom: 4rem;
+    position: relative;
 }
 
 .proj-img img{
@@ -266,6 +267,7 @@
     /* border: 1px solid red; */
     padding: 1rem;
     border-radius: 1rem;
+    height: 500px;
 }
 
 .proj-info h3{
@@ -291,4 +293,29 @@
 
 .proj-btn a:hover{
     background-color: red;
+    color: white;
+}
+
+.proj-info ul{
+    text-align: left;
+}
+
+.proj-info ul li{
+    margin: 1rem;
+}
+
+.proj-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.proj-info a:hover{
+    border-bottom: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+.proj-btn{
+    padding: 1rem;
+    text-align: left;
 }
