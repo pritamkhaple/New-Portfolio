@@ -122,6 +122,9 @@
 .btn a{
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lft-1 p{
@@ -140,12 +143,11 @@
 
 .about{
     max-width: 60%;
-    height: 100vh;
     margin: auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    gap: 2rem;
+    padding: 5rem;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    /* align-items: center; */
 }
 
 .about-left{
@@ -156,10 +158,14 @@
     padding: 3rem 1rem;
 }
 
+.about-left h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
 .about-right{
-    
-    /* border: 1px solid black; */
     width: 100%;
+    text-align: center;
 }
 
 .about-right h3{
@@ -173,6 +179,47 @@
     width: 100%;
     font-size: 1.5rem;
 }
+
+
+/* Skills section */
+
+.skills{
+    width: 100%;
+    background-color: black;
+    /* border-bottom: 1px solid #484848; */
+}
+
+.skill-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+.skill-txt{
+    margin: 2rem;
+}
+
+.skill-img{
+    margin: 2rem;
+}
+
+.skill-txt h3{
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* .skill img{
+    width: 100%;
+    dis
+} */
+
+
 
 /* projects section */
 
